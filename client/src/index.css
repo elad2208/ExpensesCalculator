@@ -1,0 +1,30 @@
+/* import the font from google fonts(useful tool for fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Source+Sans+Pro:wght@300&display=swap');
+
+/* body font  */
+body {
+  margin: 0;
+
+  /* !importnant -> can be added at the end of font-family line for testing */
+  font-family: 'Roboto', sans-serif !important;
+}
+/* hides scrollbars */
+body,html{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.primary{
+  background-color: #2e0b8db4;
+  padding:5px 20px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.secondary{
+  background-color: #ffffff;
+  padding:5px 20px;
+  color: black !important;
+  border: none;
+}
